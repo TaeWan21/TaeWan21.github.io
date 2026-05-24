@@ -1,6 +1,4 @@
-# this file contains the social media links and usernames of the author
-# the socials will be displayed in the order they are defined here
-# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/taewan_CV.pdf # path to your CV PDF file
+# Social media links shown in the navbar (when enable_navbar_social: true).
+# Order here determines display order.
 email: kimtaeyan21@gmail.com
-rss_icon: false # comment this line to hide the RSS icon
+github_username: TaeWan21
