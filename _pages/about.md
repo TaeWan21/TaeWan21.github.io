@@ -33,7 +33,7 @@ My research interests are in Natural Language Processing (NLP), Generative Model
 ## Publications
 
 <div class="publications">
-  {% bibliography %}
+  {% bibliography --query @*[selected=true]* %}
 </div>
 
 <p><br></p>
@@ -87,6 +87,53 @@ My research interests are in Natural Language Processing (NLP), Generative Model
           Advisor: <a href="https://haxlab-kit.github.io/#person/prof_kim" style="color: var(--global-theme-color);" rel="external nofollow noopener" target="_blank">Prof. Youngwon Kim</a>
         </li>
       </ul>
+    </td>
+  </tr>
+</table>
+
+<p><br></p>
+
+## Certifications
+
+<table style="width:100%; border-collapse: collapse; margin-top:18px;">
+  <tr>
+    <td style="width:25%; vertical-align: top; padding-right: 20px;">
+      <strong>Jan. 2026</strong>
+    </td>
+    <td style="width:75%; vertical-align: top;">
+      <strong>한국사능력검정시험 1급</strong> &nbsp;<em>(Korean History Proficiency Test, Level 1)</em>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:25%; vertical-align: top; padding-right: 20px; padding-top: 18px;">
+      <strong>Dec. 2025</strong>
+    </td>
+    <td style="width:75%; vertical-align: top; padding-top: 18px;">
+      <strong>SQLD</strong> &nbsp;<em>(SQL Developer)</em>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:25%; vertical-align: top; padding-right: 20px; padding-top: 18px;">
+      <strong>Jun. 2025</strong>
+    </td>
+    <td style="width:75%; vertical-align: top; padding-top: 18px;">
+      <strong>정보처리기사</strong> &nbsp;<em>(Engineer Information Processing)</em>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:25%; vertical-align: top; padding-right: 20px; padding-top: 18px;">
+      <strong>Mar. 2025</strong>
+    </td>
+    <td style="width:75%; vertical-align: top; padding-top: 18px;">
+      <strong>ADSP</strong> &nbsp;<em>(Advanced Data Analytics Semi-Professional)</em>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:25%; vertical-align: top; padding-right: 20px; padding-top: 18px;">
+      <strong>Feb. 2025</strong>
+    </td>
+    <td style="width:75%; vertical-align: top; padding-top: 18px;">
+      <strong>TOEIC</strong> &nbsp;<em>885</em>
     </td>
   </tr>
 </table>
