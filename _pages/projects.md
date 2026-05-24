@@ -8,17 +8,28 @@ nav_order: 3
 ---
 
 <style>
+  .haxproj-section-title {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--global-text-color);
+    margin: 50px 0 0;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--global-theme-color);
+  }
+  .haxproj-section-title:first-of-type {
+    margin-top: 20px;
+  }
   .haxproj-group-title {
     font-size: 1.1rem;
     font-weight: 600;
     color: var(--global-text-color);
-    margin: 40px 0 20px;
+    margin: 30px 0 16px;
   }
   .haxproj-list {
     display: flex;
     flex-direction: column;
     gap: 14px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .haxproj-card {
     display: grid;
@@ -116,15 +127,25 @@ nav_order: 3
   }
 </style>
 
-{% assign all_projects = site.projects | sort: "importance" %}
-{% assign years = all_projects | map: "display_year" | uniq | sort | reverse %}
+{% assign type_order = "research,personal" | split: "," %}
+{% for ptype in type_order %}
+  {% assign type_projects = site.projects | where: "project_type", ptype %}
+  {% if type_projects.size > 0 %}
+    {% if ptype == "research" %}
+<h2 class="haxproj-section-title">Research Projects</h2>
+      {% assign meta_icon = "fa-solid fa-landmark" %}
+    {% else %}
+<h2 class="haxproj-section-title">Personal Projects</h2>
+      {% assign meta_icon = "fa-solid fa-code" %}
+    {% endif %}
 
-{% for year in years %}
-{% if year %}
+    {% assign years = type_projects | map: "display_year" | uniq | sort | reverse %}
+    {% for year in years %}
+      {% if year %}
 <h3 class="haxproj-group-title">{{ year }}</h3>
 <div class="haxproj-list">
-  {% assign year_projects = all_projects | where: "display_year", year %}
-  {% for project in year_projects %}
+        {% assign year_projects = type_projects | where: "display_year", year | sort: "importance" %}
+        {% for project in year_projects %}
   <a class="haxproj-card" href="{{ project.url | relative_url }}">
     <div class="haxproj-logo">
       {% if project.logo %}
@@ -139,11 +160,13 @@ nav_order: 3
       <h4>{{ project.title }}</h4>
       <p>{{ project.description }}</p>
       <div class="haxproj-meta">
-        {% if project.funding %}<span><i class="fa-solid fa-landmark"></i>{{ project.funding }}</span>{% endif %}
+        {% if project.funding %}<span><i class="{{ meta_icon }}"></i>{{ project.funding }}</span>{% endif %}
       </div>
     </div>
   </a>
-  {% endfor %}
+        {% endfor %}
 </div>
-{% endif %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 {% endfor %}

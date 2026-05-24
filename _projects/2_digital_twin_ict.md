@@ -5,6 +5,7 @@ description: Data visualization for Energy Storage Systems and XR-based tracking
 img:
 importance: 2
 category: research
+project_type: research
 display_year: "2025"
 funding: Korea Electronics Technology Institute (KETI)
 year: "2025"

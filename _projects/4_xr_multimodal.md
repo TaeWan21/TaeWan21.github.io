@@ -5,6 +5,7 @@ description: Multimodal interaction technology for spatial computing devices suc
 img:
 importance: 3
 category: research
+project_type: research
 display_year: "2025"
 funding: S Corporation
 year: "2024 – 2025"

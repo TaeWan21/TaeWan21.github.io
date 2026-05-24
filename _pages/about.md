@@ -62,9 +62,20 @@ My research interests are in Natural Language Processing (NLP), Generative Model
 <table style="width:100%; border-collapse: collapse; margin-top:18px;">
   <tr>
     <td style="width:25%; vertical-align: top; padding-right: 20px;">
-      <strong>May. 2025 – Jan. 2026</strong>
+      <strong>Mar. 2026 – Present</strong>
     </td>
     <td style="width:75%; vertical-align: top;">
+      <strong>
+        <a href="https://www.keti.re.kr/m/researcher/introduce/map07.php" rel="external nofollow noopener" target="_blank">Korea Electronics Technology Institute (KETI)</a>
+      </strong>, AI Application Research Center, South Korea<br>
+      <em>Researcher</em>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:25%; vertical-align: top; padding-right: 20px; padding-top: 18px;">
+      <strong>May. 2025 – Jan. 2026</strong>
+    </td>
+    <td style="width:75%; vertical-align: top; padding-top: 18px;">
       <strong>
         <a href="https://haxlab-kit.github.io/" rel="external nofollow noopener" target="_blank">HAX Lab</a>
       ,

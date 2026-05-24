@@ -5,6 +5,7 @@ description: Vehicle speed and steering angle estimation from accident footage.
 img:
 importance: 1
 category: research
+project_type: research
 display_year: "2025"
 funding: Korea Insurance Development Institute
 year: "2025"
