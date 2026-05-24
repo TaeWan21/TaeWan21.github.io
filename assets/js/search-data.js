@@ -398,24 +398,24 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "projects-traffic-accident-video-analysis-system",
-          title: 'Traffic Accident Video Analysis System',
-          description: "Vehicle speed and steering angle estimation from accident footage.",
+            },},{id: "projects-development-of-a-traffic-accident-video-analysis-system",
+          title: 'Development of a Traffic Accident Video Analysis System',
+          description: "Develops technologies for analyzing accident footage, including vehicle speed and steering angle estimation from video analysis.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_traffic_accident/";
-            },},{id: "projects-ict-technology-discovery-linked-to-digital-twin",
-          title: 'ICT Technology Discovery Linked to Digital Twin',
-          description: "Data visualization for Energy Storage Systems and XR-based tracking strategies.",
+            },},{id: "projects-research-on-ict-technology-discovery-linked-to-digital-twin",
+          title: 'Research on ICT Technology Discovery Linked to Digital Twin',
+          description: "Focuses on data visualization for Energy Storage Systems and XR-based strategies including tracking technologies.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_digital_twin_ict/";
             },},{id: "projects-large-scale-ai-based-defense-product-design-and-maintenance-service-demonstration",
           title: 'Large-Scale AI-based Defense Product Design and Maintenance Service Demonstration',
-          description: "Hyper-scale AI convergence service using AI and spatial computing (XR) for military supply manufacturing productivity.",
+          description: "Demonstrates hyper-scale AI convergence service using AI and spatial computing (XR) for military supply manufacturing productivity.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_defense_ai/";
-            },},{id: "projects-spatial-computing-xr-multimodal-interaction-technology",
-          title: 'Spatial Computing XR Multimodal Interaction Technology',
-          description: "Multimodal interaction technology for spatial computing devices such as Apple Vision Pro.",
+            },},{id: "projects-development-of-spatial-computing-xr-multimodal-interaction-technology",
+          title: 'Development of Spatial Computing XR Multimodal Interaction Technology',
+          description: "Develops multimodal interaction technology for spatial computing devices such as Apple Vision Pro.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_xr_multimodal/";
             },},{id: "projects-financial-news-summarizer-via-llm-fine-tuning",
