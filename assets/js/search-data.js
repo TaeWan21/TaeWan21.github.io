@@ -11,21 +11,21 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "publications",
-          description: "Journal papers and patent applications, in reverse chronological order.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "Research and applied software projects.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "A short academic CV. Full PDF version available below.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -398,70 +398,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-received-the-lee-jung-yeon-scholarship-for-academic-excellence-from-kumoh-national-institute-of-technology",
-          title: 'Received the Lee Jung-Yeon Scholarship for Academic Excellence from Kumoh National Institute of...',
-          description: "",
-          section: "News",},{id: "news-scored-885-on-toeic",
-          title: 'Scored 885 on TOEIC.',
-          description: "",
-          section: "News",},{id: "news-joined-xrm-lab-as-an-undergraduate-researcher-llm-vr-ar-computer-vision-for-traffic-accident-analysis",
-          title: 'Joined XRM Lab as an undergraduate researcher (LLM × VR/AR, computer vision for...',
-          description: "",
-          section: "News",},{id: "news-journal-paper-feature-based-beauty-product-search-system-through-feature-extraction-from-reviews-published-in-journal-of-digital-contents-society-kci",
-          title: 'Journal paper “Feature-based Beauty Product Search System through Feature Extraction from Reviews” published...',
-          description: "",
-          section: "News",},{id: "news-wrapped-up-undergraduate-research-at-the-extended-reality-amp-amp-metaverse-lab-xrm",
-          title: 'Wrapped up undergraduate research at the Extended Reality &amp;amp;amp; Metaverse Lab (XRM).',
-          description: "",
-          section: "News",},{id: "news-earned-sqld-sql-developer-certification",
-          title: 'Earned SQLD (SQL Developer) certification.',
-          description: "",
-          section: "News",},{id: "news-earned-한국사능력검정시험-1급-korean-history-proficiency-level-1",
-          title: 'Earned 한국사능력검정시험 1급 (Korean History Proficiency, Level 1).',
-          description: "",
-          section: "News",},{id: "news-graduating-from-kumoh-national-institute-of-technology-with-top-honors",
-          title: 'Graduating from Kumoh National Institute of Technology with top honors.',
-          description: "",
-          section: "News",},{id: "projects-review-based-cosmetic-feature-search",
-          title: 'Review-based Cosmetic Feature Search',
-          description: "Capstone (Team Leader) · KoBERT + Elasticsearch · Deployed",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_cosmetic_search/";
-            },},{id: "projects-financial-news-summarizer-via-llm-fine-tuning",
-          title: 'Financial News Summarizer via LLM Fine-Tuning',
-          description: "Personal project · Llama 3 8B + LoRA · GPT-4 distillation",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_financial_news_llm/";
-            },},{id: "projects-medical-image-analysis-for-pkd-subtype-classification",
-          title: 'Medical Image Analysis for PKD Subtype Classification',
-          description: "Industry–academia collaboration · segmentation + classification",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_pkd_classification/";
-            },},{id: "projects-dialogue-summarization-via-discord-chatbot",
-          title: 'Dialogue Summarization via Discord Chatbot',
-          description: "SIG @ KLE Lab · Korean dialogue summarization",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_dialogue_summarization/";
-            },},{id: "projects-plot-based-movie-recommendation-system",
-          title: 'Plot-Based Movie Recommendation System',
-          description: "SIG @ KLE Lab · TF-IDF + cosine similarity + Word2Vec",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_movie_recommender/";
-            },},{id: "projects-camping-site-reservation-web-app",
-          title: 'Camping Site Reservation Web App',
-          description: "Full-stack reservation flow with React + Express",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_camping_reservation/";
-            },},{id: "projects-earthquake-support-web-app-location-aware",
-          title: 'Earthquake Support Web/App (Location-Aware)',
-          description: "Spring + React · location-aware emergency resources",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_earthquake_support/";
-            },},{id: "projects-smart-note-with-generative-ai",
-          title: 'Smart Note with Generative AI',
-          description: "WPF (C#) desktop note-taking with generative AI assistance",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_smart_note/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
