@@ -28,6 +28,8 @@ Hello! I am Taewan Kim. I am currently working at the AI Application Research Ce
 
 My research interests are in Natural Language Processing (NLP), Generative Models, and Industrial AI.
 
+I'm especially curious about how quickly the AI field is moving, and I make it a habit to keep up with new papers, models, and open-source releases as they come out.
+
 <div style="clear: both;"></div>
 
 ## Publications
