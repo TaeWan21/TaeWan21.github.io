@@ -51,6 +51,16 @@ nav_order: 3
     text-decoration: none;
     color: inherit;
   }
+  .haxproj-card--static {
+    cursor: default;
+  }
+  .haxproj-card--static:hover {
+    box-shadow: none;
+    border-color: var(--global-divider-color);
+  }
+  .haxproj-card--static:hover .haxproj-logo {
+    border-color: var(--global-divider-color);
+  }
 
   .haxproj-logo {
     width: 120px;
@@ -146,6 +156,26 @@ nav_order: 3
 <div class="haxproj-list">
         {% assign year_projects = type_projects | where: "display_year", year | sort: "importance" %}
         {% for project in year_projects %}
+          {% if ptype == "research" %}
+  <div class="haxproj-card haxproj-card--static">
+    <div class="haxproj-logo">
+      {% if project.logo %}
+        <img src="{{ '/assets/img/projects/' | append: project.logo | relative_url }}" alt="{{ project.logo_alt | default: project.funding }}">
+      {% elsif project.logo_icon %}
+        <i class="{{ project.logo_icon }}"></i>
+      {% else %}
+        <i class="fa-solid fa-flask"></i>
+      {% endif %}
+    </div>
+    <div class="haxproj-body">
+      <h4>{{ project.title }}</h4>
+      <p>{{ project.description }}</p>
+      <div class="haxproj-meta">
+        {% if project.funding %}<span><i class="{{ meta_icon }}"></i>{{ project.funding }}</span>{% endif %}
+      </div>
+    </div>
+  </div>
+          {% else %}
   <a class="haxproj-card" href="{{ project.url | relative_url }}">
     <div class="haxproj-logo">
       {% if project.logo %}
@@ -164,6 +194,7 @@ nav_order: 3
       </div>
     </div>
   </a>
+          {% endif %}
         {% endfor %}
 </div>
       {% endif %}
