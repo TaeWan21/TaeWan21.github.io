@@ -7,7 +7,7 @@ subtitle:
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true
+  image_circular: false
   more_info:
 
 selected_papers: false
@@ -49,7 +49,8 @@ My research interests are in Natural Language Processing (NLP), Generative Model
       <strong>
         <a href="https://www.kumoh.ac.kr/" rel="external nofollow noopener" target="_blank">Kumoh National Institute of Technology</a>
       </strong>, Gumi, South Korea<br>
-      B.S. in Computer Software Engineering
+      B.S. in Computer Software Engineering<br>
+      <em>Graduated with Top Honors · GPA: 4.30 / 4.5</em>
     </td>
   </tr>
 </table>
