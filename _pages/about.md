@@ -43,3 +43,28 @@ My research interests are in Natural Language Processing (NLP), Generative Model
     </td>
   </tr>
 </table>
+
+<p><br></p>
+
+## Experience
+
+<table style="width:100%; border-collapse: collapse; margin-top:18px;">
+  <tr>
+    <td style="width:25%; vertical-align: top; padding-right: 20px;">
+      <strong>May. 2025 – Jan. 2026</strong>
+    </td>
+    <td style="width:75%; vertical-align: top;">
+      <strong>
+        <a href="https://haxlab-kit.github.io/" rel="external nofollow noopener" target="_blank">HAX Lab</a>
+      ,
+      <a href="https://www.kumoh.ac.kr/" rel="external nofollow noopener" target="_blank">Kumoh National Institute of Technology</a></strong>,
+      Gumi, South Korea<br>
+      <em>Undergraduate Research Intern</em>
+      <ul style="margin-top: 6px; margin-bottom: 0; padding-left: 18px;">
+        <li>
+          Advisor: <a href="https://haxlab-kit.github.io/#person/prof_kim" style="color: var(--global-theme-color);" rel="external nofollow noopener" target="_blank">Prof. Youngwon Kim</a>
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
