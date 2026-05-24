@@ -418,6 +418,36 @@ ninja.data = [{
           description: "Multimodal interaction technology for spatial computing devices such as Apple Vision Pro.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_xr_multimodal/";
+            },},{id: "projects-financial-news-summarizer-via-llm-fine-tuning",
+          title: 'Financial News Summarizer via LLM Fine-Tuning',
+          description: "Fine-tuned Llama 3 8B with LoRA to extract structured fields from Korean financial news.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/p1_financial_news_llm/";
+            },},{id: "projects-dialogue-summarization-via-discord-chatbot",
+          title: 'Dialogue Summarization via Discord Chatbot',
+          description: "Korean dialogue summarization deployed as a Discord chatbot, using KoBERT and the AI HUB Korean Dialogue Summarization Dataset.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/p2_dialogue_summarization/";
+            },},{id: "projects-plot-based-movie-recommendation-system",
+          title: 'Plot-Based Movie Recommendation System',
+          description: "Keyword-based movie recommender built from crawled Naver Series On plot data using TF-IDF, cosine similarity, and Word2Vec.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/p3_movie_recommender/";
+            },},{id: "projects-smart-note-with-generative-ai",
+          title: 'Smart Note with Generative AI',
+          description: "WPF (C#) desktop note-taking app augmented with generative AI for summarization, expansion, and structuring of long-form notes.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/p4_smart_note/";
+            },},{id: "projects-earthquake-support-web-app-location-aware",
+          title: 'Earthquake Support Web/App (Location-Aware)',
+          description: "Location-aware web/mobile service surfacing nearby earthquake support resources for users in affected regions.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/p5_earthquake_support/";
+            },},{id: "projects-camping-site-reservation-web-app",
+          title: 'Camping Site Reservation Web App',
+          description: "Full-stack reservation flow with search, availability, and booking — built end-to-end with React and Express.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/p6_camping_reservation/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
