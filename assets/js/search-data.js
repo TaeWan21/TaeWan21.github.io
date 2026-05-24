@@ -428,9 +428,9 @@ ninja.data = [{
           description: "Korean dialogue summarization deployed as a Discord chatbot, using KoBERT and the AI HUB Korean Dialogue Summarization Dataset.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/p2_dialogue_summarization/";
-            },},{id: "projects-plot-based-movie-recommendation-system",
-          title: 'Plot-Based Movie Recommendation System',
-          description: "Keyword-based movie recommender built from crawled Naver Series On plot data using TF-IDF, cosine similarity, and Word2Vec.",
+            },},{id: "projects-moviepick-plot-based-movie-recommendation-system",
+          title: 'MoviePick — Plot-Based Movie Recommendation System',
+          description: "A keyword-driven Korean movie recommender built on crawled Naver Series On plot data, with actor / keyword / title search modes served via FastAPI.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/p3_movie_recommender/";
             },},{id: "projects-smart-note-with-generative-ai",
@@ -438,16 +438,26 @@ ninja.data = [{
           description: "WPF (C#) desktop note-taking app augmented with generative AI for summarization, expansion, and structuring of long-form notes.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/p4_smart_note/";
-            },},{id: "projects-earthquake-support-web-app-location-aware",
-          title: 'Earthquake Support Web/App (Location-Aware)',
-          description: "Location-aware web/mobile service surfacing nearby earthquake support resources for users in affected regions.",
+            },},{id: "projects-earthquake-shelter-map-public-api-safety-service",
+          title: 'Earthquake Shelter Map — Public API Safety Service',
+          description: "A safety-map web service combining Kakao Maps and the public-data earthquake/tsunami shelter API, with GPS-based location, routing, and search.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/p5_earthquake_support/";
-            },},{id: "projects-camping-site-reservation-web-app",
-          title: 'Camping Site Reservation Web App',
-          description: "Full-stack reservation flow with search, availability, and booking — built end-to-end with React and Express.",
+            },},{id: "projects-camping-site-reservation-web-programming-term-project",
+          title: 'Camping Site Reservation — Web Programming Term Project',
+          description: "An Airbnb-style camping reservation web app with browsing, filtering, booking, and reviews — built end-to-end with React (front end) and an Express + MySQL backend.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/p6_camping_reservation/";
+            },},{id: "projects-revieweyes-feature-based-beauty-product-search",
+          title: 'ReviewEyes — Feature-based Beauty Product Search',
+          description: "Capstone project (Team Leader) that fine-tunes KoBERT for aspect-level sentiment on Korean cosmetic reviews and serves the extracted features through Elasticsearch. Led to a KCI journal paper and a patent application.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/p7_cosmetic_search/";
+            },},{id: "projects-otkkidokkiyo-옷키도키요-ai-shopping-assistant-for-the-visually-impaired",
+          title: 'OtkkiDokkiYo (옷키도키요) — AI Shopping Assistant for the Visually Impaired',
+          description: "A voice-driven mobile app that lets visually impaired users photograph an item of clothing and hear a detailed description back, built on a Mask-R-CNN + ResNet-50 vision pipeline.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/p8_okido/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
