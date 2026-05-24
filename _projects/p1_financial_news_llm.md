@@ -3,7 +3,7 @@ layout: page
 title: Financial News Summarizer via LLM Fine-Tuning
 description: Fine-tuned Llama 3 8B with LoRA to extract structured fields from Korean financial news.
 img:
-importance: 1
+importance: 2
 category: personal
 project_type: personal
 display_year: "2025"

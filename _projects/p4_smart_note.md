@@ -16,3 +16,7 @@ A desktop note-taking application that integrates generative AI to assist note a
 ### Highlights
 - **WPF + C#** front end with rich-text editing.
 - Generative AI features: summarize selected text, expand bullet ideas into prose, restructure rough notes into clean outlines.
+
+### Final Report
+
+<iframe src="{{ '/assets/pdf/smart_note_final_report.pdf' | relative_url }}" width="100%" height="700px" style="border: 1px solid var(--global-divider-color); border-radius: 8px;"></iframe>
