@@ -3,5 +3,4 @@
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 cv_pdf: /assets/pdf/taewan_CV.pdf # path to your CV PDF file
 email: kimtaeyan21@gmail.com
-github_username: TaeWan21
 rss_icon: false # comment this line to hide the RSS icon
