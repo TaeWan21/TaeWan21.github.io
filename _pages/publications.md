@@ -23,12 +23,17 @@ nav_order: 2
 
 <h2 class="pub-section-title">International Conferences</h2>
 <div class="publications">
-  {% bibliography --query @inproceedings %}
+  {% bibliography --query @inproceedings[category=international] %}
 </div>
 
 <h2 class="pub-section-title">Domestic Journals (KCI)</h2>
 <div class="publications">
   {% bibliography --query @article %}
+</div>
+
+<h2 class="pub-section-title">Domestic Conferences</h2>
+<div class="publications">
+  {% bibliography --query @inproceedings[category=domestic] %}
 </div>
 
 <h2 class="pub-section-title">Patents</h2>
