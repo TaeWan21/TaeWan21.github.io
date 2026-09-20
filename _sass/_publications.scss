@@ -186,3 +186,33 @@
 .citation-number {
   color: var(--global-theme-color);
 }
+
+/*******************************************************************************
+ * Compact publication entries
+ ******************************************************************************/
+
+.publications {
+  margin-top: 1rem;
+
+  ol.bibliography li {
+    margin-bottom: 0.75rem;
+
+    .title {
+      font-size: 0.95rem;
+    }
+
+    .author {
+      font-size: 0.85rem;
+    }
+
+    .periodical {
+      font-size: 0.85rem;
+    }
+
+    .links a.btn {
+      font-size: 0.75rem;
+      padding: 0.05rem 0.5rem;
+      margin-top: 0.2rem;
+    }
+  }
+}

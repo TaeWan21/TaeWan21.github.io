@@ -1,7 +1,9 @@
 ---
 layout: about
-title: Home
-permalink: /
+title: About
+permalink: /about/
+nav: true
+nav_order: 1
 subtitle:
 
 profile:
@@ -24,11 +26,9 @@ latest_posts:
   limit: 3
 ---
 
-Hello! I am Taewan Kim. I am currently working at the AI Application Research Center, [Korea Electronics Technology Institute (KETI)](https://www.keti.re.kr/m/researcher/introduce/map07.php).
+Hello! I am Taewan Kim. I am currently a research intern at the [Data Mining &amp; Algorithm Lab](https://sites.google.com/view/hyudatalab/home), Hanyang University, advised by [Prof. Hyunjoon Kim](https://sites.google.com/view/hyudatalab/home).
 
 My research interests are in Natural Language Processing (NLP), Generative Models, and Industrial AI.
-
-I'm especially curious about how quickly the AI field is moving, and I make it a habit to keep up with new papers, models, and open-source releases as they come out.
 
 <div style="clear: both;"></div>
 
@@ -37,8 +37,6 @@ I'm especially curious about how quickly the AI field is moving, and I make it a
 <div class="publications">
   {% bibliography --query @*[selected=true]* %}
 </div>
-
-<p><br></p>
 
 ## Education
 
@@ -57,16 +55,32 @@ I'm especially curious about how quickly the AI field is moving, and I make it a
   </tr>
 </table>
 
-<p><br></p>
-
 ## Experience
 
 <table style="width:100%; border-collapse: collapse; margin-top:18px;">
   <tr>
     <td style="width:25%; vertical-align: top; padding-right: 20px;">
-      <strong>Mar. 2026 – Present</strong>
+      <strong>Sep. 2026 – Present</strong>
     </td>
     <td style="width:75%; vertical-align: top;">
+      <strong>
+        <a href="https://sites.google.com/view/hyudatalab/home" rel="external nofollow noopener" target="_blank">Data Mining &amp; Algorithm Lab</a>
+      ,
+      <a href="https://www.hanyang.ac.kr/" rel="external nofollow noopener" target="_blank">Hanyang University</a></strong>,
+      Seoul, South Korea<br>
+      <em>Research Intern</em>
+      <ul style="margin-top: 6px; margin-bottom: 0; padding-left: 18px;">
+        <li>
+          Advisor: <a href="https://sites.google.com/view/hyudatalab/home" style="color: var(--global-theme-color);" rel="external nofollow noopener" target="_blank">Prof. Hyunjoon Kim</a>
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:25%; vertical-align: top; padding-right: 20px; padding-top: 18px;">
+      <strong>Mar. 2026 – Aug. 2026</strong>
+    </td>
+    <td style="width:75%; vertical-align: top; padding-top: 18px;">
       <strong>
         <a href="https://www.keti.re.kr/m/researcher/introduce/map07.php" rel="external nofollow noopener" target="_blank">Korea Electronics Technology Institute (KETI)</a>
       </strong>, AI Application Research Center, South Korea<br>
@@ -92,8 +106,6 @@ I'm especially curious about how quickly the AI field is moving, and I make it a
     </td>
   </tr>
 </table>
-
-<p><br></p>
 
 ## Certifications
 

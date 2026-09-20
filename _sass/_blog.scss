@@ -165,3 +165,344 @@
     }
   }
 }
+
+/*******************************************************************************
+ * Compact typography (content area)
+ ******************************************************************************/
+
+.post {
+  .post-header .post-title {
+    font-size: 1.9rem;
+    font-weight: 600;
+  }
+
+  // date line between the title and the table of contents
+  .post-header .post-meta {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  h4 {
+    font-size: 1.05rem;
+  }
+}
+
+/*******************************************************************************
+ * Home sidebar (profile + links + categories)
+ ******************************************************************************/
+
+.home-sidebar {
+  .sidebar-profile {
+    padding: 1.5rem 0 0.25rem;
+  }
+
+  .sidebar-avatar {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .sidebar-name {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin: 0.75rem 0 0.25rem;
+  }
+
+  .sidebar-bio {
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+    line-height: 1.5;
+    margin-bottom: 0.25rem;
+  }
+
+  .sidebar-motto {
+    font-size: 0.8rem;
+    font-style: italic;
+    color: var(--global-text-color-light);
+    margin-bottom: 0.75rem;
+  }
+
+  .sidebar-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+
+    li {
+      padding: 0.15rem 0;
+    }
+
+    a {
+      color: var(--global-text-color);
+      text-decoration: none;
+
+      i {
+        width: 1.25rem;
+        color: var(--global-text-color-light);
+      }
+
+      &:hover {
+        color: var(--global-theme-color);
+
+        i {
+          color: var(--global-theme-color);
+        }
+      }
+    }
+  }
+
+  .category-tree {
+    border: none;
+    border-top: 1px solid var(--global-divider-color);
+    border-radius: 0;
+    padding: 1rem 0 0;
+    margin: 1rem 0 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-sidebar {
+    position: sticky;
+    top: 5rem;
+    align-self: flex-start;
+  }
+}
+
+/*******************************************************************************
+ * Home feed: category tree + recent posts
+ ******************************************************************************/
+
+.cat-count {
+  color: var(--global-text-color-light);
+  font-size: 0.85em;
+  font-weight: normal;
+}
+
+.post-date {
+  color: var(--global-text-color-light);
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.category-tree {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.375rem;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0 2.5rem;
+  font-size: 0.95rem;
+
+  .category-tree-title {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0.25rem;
+
+    li {
+      padding: 0.15rem 0;
+    }
+
+    ul {
+      padding-left: 1.25rem;
+    }
+  }
+
+  a {
+    color: var(--global-text-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+
+  // top-level category (e.g. paper-review)
+  .cat-parent {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+}
+
+.recent-posts-title {
+  font-weight: 600;
+  border-bottom: 1px solid var(--global-divider-color);
+  padding-bottom: 0.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+.recent-posts {
+  list-style: none;
+  margin: 0 0 1.5rem;
+  padding: 0;
+
+  li {
+    padding: 0.9rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  .post-link {
+    display: block;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--global-text-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+
+  .post-date {
+    margin: 0.2rem 0 0;
+    font-size: 0.78rem;
+  }
+
+  .post-desc {
+    margin: 0.25rem 0 0;
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+/*******************************************************************************
+ * Categories page
+ ******************************************************************************/
+
+.categories-page {
+  .category-section {
+    margin-bottom: 2.25rem;
+  }
+
+  .category-heading {
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-bottom: 0.4rem;
+
+    a {
+      color: var(--global-text-color);
+      text-decoration: none;
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .category-subheading {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin: 1rem 0 0.25rem;
+
+    a {
+      color: var(--global-text-color);
+      text-decoration: none;
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .category-post-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: flex;
+      align-items: baseline;
+      gap: 0.75rem;
+      padding: 0.3rem 0;
+    }
+
+    .post-link {
+      font-size: 0.95rem;
+      color: var(--global-text-color);
+      text-decoration: none;
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+}
+
+// Table of contents shown at the beginning of a post (toc.beginning: true)
+#table-of-contents {
+  .toc-title {
+    font-weight: 600;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    // chevron that rotates when the toc is opened
+    &::after {
+      content: "\f078";
+      font-family: "Font Awesome 7 Free";
+      font-weight: 900;
+      font-size: 0.7em;
+      margin-left: 0.5rem;
+      display: inline-block;
+      transition: transform 0.2s ease;
+    }
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+
+  &[open] .toc-title {
+    margin-bottom: 0.4rem;
+
+    &::after {
+      transform: rotate(180deg);
+    }
+  }
+
+  ul.section-nav {
+    list-style: none;
+    padding-left: 0.75rem;
+    margin-bottom: 0;
+
+    ul {
+      list-style: none;
+      padding-left: 1rem;
+    }
+
+    li {
+      margin: 0.15rem 0;
+    }
+
+    a {
+      color: var(--global-text-color);
+
+      &:hover {
+        color: var(--global-theme-color);
+        text-decoration: none;
+      }
+    }
+  }
+}
