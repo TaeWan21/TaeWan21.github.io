@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Paper Review] Magentic-One: A Generalist Multi-Agent System for Solving Complex Tasks (arXiv, 2024)"
-date: 2026-09-20 21:00:00 +0900
+date: 2026-09-06 21:00:00 +0900
 description: "Orchestrator의 두 ledger와 nested loop로 planning, progress tracking, error recovery를 구현한 generalist multi-agent system"
 categories: [paper-review, Multi-agent System]
 tags: [multi-agent, llm-agent, orchestration]

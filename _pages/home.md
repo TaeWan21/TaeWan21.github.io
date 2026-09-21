@@ -22,7 +22,7 @@ pagination:
       <div class="sidebar-profile">
         <img class="sidebar-avatar" src="{{ '/assets/img/sidebar_profile.jpeg' | relative_url }}" alt="Taewan Kim">
         <p class="sidebar-name">Taewan Kim</p>
-        <p class="sidebar-motto">Zero to Hero 🚀</p>
+        <p class="sidebar-motto">🚀</p>
         <ul class="sidebar-links">
           <li>
             <a href="mailto:{{ site.data.socials.email | encode_email }}"><i class="fa-solid fa-envelope"></i> Email</a>
