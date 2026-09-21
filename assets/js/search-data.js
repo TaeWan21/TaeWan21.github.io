@@ -23,7 +23,84 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-paper-review-magentic-one-a-generalist-multi-agent-system-for-solving-complex-tasks-arxiv-2024",
+        },{id: "post-paper-review-agentgrad-intervention-guided-prompt-optimization-for-multi-agent-systems-arxiv-2026",
+        
+          title: "[Paper Review] AgentGrad: Intervention-guided Prompt Optimization for Multi Agent Systems (arXiv, 2026)",
+        
+        description: "실패마다 agent를 하나씩 개입해 고칠 prompt를 찾고, 개입으로 얻은 출력을 agent 수준 pseudo-label로 써서 textual gradient를 뽑은 뒤, 비슷한 gradient끼리 묶어 추상화하는 multi-agent prompt optimizer",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/agentgrad/";
+          
+        },
+      },{id: "post-paper-review-dover-intervention-driven-auto-debugging-for-llm-multi-agent-systems-iclr-2026",
+        
+          title: "[Paper Review] DoVer: Intervention-Driven Auto Debugging for LLM Multi-Agent Systems (ICLR, 2026)",
+        
+        description: "실패한 multi-agent 실행 log에서 세운 failure attribution 가설을, 의심 step의 message를 고치고 그 지점부터 재실행해 검증하는 do-then-verify debugging framework",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/dover/";
+          
+        },
+      },{id: "post-paper-review-textgrad-automatic-quot-differentiation-quot-via-text-arxiv-2024",
+        
+          title: "[Paper Review] TextGrad: Automatic &quot;Differentiation&quot; via Text (arXiv, 2024)",
+        
+        description: "LLM이 주는 자연어 비평을 gradient로 보고, 임의의 computation graph를 따라 역전파해 prompt, code, 분자, 치료 계획까지 같은 syntax로 최적화하는 framework TextGrad",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/textgrad/";
+          
+        },
+      },{id: "post-paper-review-gepa-reflective-prompt-evolution-can-outperform-reinforcement-learning-iclr-2026",
+        
+          title: "[Paper Review] GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning (ICLR, 2026)",
+        
+        description: "rollout의 자연어 trace를 LLM이 reflection해 prompt를 진화시키고, task별 Pareto frontier에서 후보를 sampling하는 prompt optimizer GEPA. GRPO보다 최대 35배 적은 rollout으로 더 높은 점수를 낸다",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/gepa/";
+          
+        },
+      },{id: "post-paper-review-a-two-tier-perspective-on-inference-time-parallelism-in-multi-agent-llm-systems-icml-2026",
+        
+          title: "[Paper Review] A Two-Tier Perspective on Inference-Time Parallelism in Multi-Agent LLM Systems (ICML,...",
+        
+        description: "multi-agent system의 추론 시 병렬화를 task 수준의 Replica Parallelism과 경로 내부의 Structural Parallelism 두 층으로 나누고, 둘의 상호작용을 하나의 실행 framework(TIPEX)에서 분석한 논문",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/tipex/";
+          
+        },
+      },{id: "post-paper-review-learning-to-share-selective-memory-for-efficient-parallel-agentic-systems-icml-2026",
+        
+          title: "[Paper Review] Learning to Share: Selective Memory for Efficient Parallel Agentic Systems (ICML,...",
+        
+        description: "병렬로 도는 agent team들이 중간 결과를 global memory bank로 공유하되, 무엇을 공유할지는 RL로 학습된 lightweight controller가 정하는 LTS",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/learning-to-share/";
+          
+        },
+      },{id: "post-paper-review-optimizing-sequential-multi-step-tasks-with-parallel-llm-agents-icml-workshop-2025",
+        
+          title: "[Paper Review] Optimizing Sequential Multi-Step Tasks with Parallel LLM Agents (ICML Workshop, 2025)...",
+        
+        description: "같은 task를 푸는 여러 multi-agent team을 동시에 실행하고, 가장 빠른 답을 취하거나(early stopping) 답들을 합쳐(aggregation) latency와 완료율을 개선하는 M1-Parallel",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/m1-parallel/";
+          
+        },
+      },{id: "post-paper-review-magentic-one-a-generalist-multi-agent-system-for-solving-complex-tasks-arxiv-2024",
         
           title: "[Paper Review] Magentic-One: A Generalist Multi-Agent System for Solving Complex Tasks (arXiv, 2024)...",
         
